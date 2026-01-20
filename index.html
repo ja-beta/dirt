@@ -10,12 +10,19 @@
 <body>
     <button id="theme-toggle" aria-label="Toggle theme">⦿</button>
     <h1>voting 2025</h1>
-    <ul class="vote-list">
-        <li class="vote-item">
-            <p>luxury highline</p>
-            <p>Midsize apartment complex</p>
-            <p>Affordable public housing</p>
-        </li>
-    </ul>
+    <div class="list-container">
+        <ul class="vote-list">
+            <li class="vote-item">
+                <input type="radio" name="vote" id="luxury-highline" value="luxury-highline"/><label for="luxury-highline">luxury highline</label>
+            </li>
+            <li class="vote-item">
+                <input type="radio" name="vote" id="midsize-apartment-complex" value="midsize-apartment-complex"/><label for="midsize-apartment-complex">Midsize apartment complex</label>
+            </li>
+            <li class="vote-item">
+                <input type="radio" name="vote" id="affordable-public-housing" value="affordable-public-housing"/><label for="affordable-public-housing">Affordable public housing</label>
+            </li>
+        </ul>
+    </div>
+
 </body>
 </html>
