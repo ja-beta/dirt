@@ -61,6 +61,17 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 2rem;
+}
+
+#theme-toggle{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+    color: var(--text-color);
 }
 
 h1{
